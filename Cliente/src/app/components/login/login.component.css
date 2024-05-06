@@ -1,0 +1,55 @@
+.bodyLogin {
+    background-color:  #f2f2f2; 
+    padding: 50px 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginDiv {
+    background-color: #D4C19C; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 30px;
+}
+
+.loginTitulo h5 {
+    color: #333; /* Texto oscuro */
+    margin-bottom: 30px; /* Espacio entre el título y los campos de entrada */
+}
+
+.customInput {
+    margin-bottom: 20px; /* Espacio entre los campos de entrada */
+}
+
+input.browser-default:focus:not([readonly]) {
+    border-bottom: 1px solid #7420; 
+}
+
+.btnLogin {
+    background-color: #7E3B3B; 
+    color: white;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+}
+
+.btnLogin:hover {
+    background-color: #5F879F; 
+}
+
+.divOlvide a {
+    color: #A3856A; 
+}
+
+.divOlvide a:hover {
+    color: #504; 
+}
+
+.logito img {
+    float: left;
+    height: auto;
+    max-width: 50%;
+}
